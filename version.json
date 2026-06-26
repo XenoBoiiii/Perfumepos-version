@@ -1,6 +1,6 @@
 {
-    "version": "1.0",
-    "notes": "Version inicial",
-    "windows_url": "",
-    "mac_url": ""
+  "version": "1.1",
+  "notes": "Recuperar tienda desde la nube + respaldo de ajustes",
+  "windows_url": "https://github.com/XenoBoiiii/perfumepos-version/releases/download/v1.1/PerfumePOS_Setup_v1.1.exe",
+  "windows_sha256": "e8effb567f77b015433e125aaec2578e7c4d9ad23eda38d6c6c579dd0f354ad1"
 }
