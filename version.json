@@ -1,6 +1,6 @@
 {
-  "version": "1.2.1",
-  "notes": "Nueva opción al imprimir etiquetas: elige diseño Tienda o Simple (en el POS, historial de ventas y menú de Etiquetas, también desde el celular).",
-  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.2.1/PerfumePOS_Setup_v1.2.1.exe",
-  "windows_sha256": "957c99532e6c4b351bca16af4d89e2ca99b65cbdbc2043c5af24d01f068359a8"
+  "version": "1.2.2",
+  "notes": "Corrige un error de certificado SSL que impedía actualizar en algunos equipos.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.2.2/PerfumePOS_Setup_v1.2.2.exe",
+  "windows_sha256": "102ca02896a214a7a9064171d7b5766a98181ee772860aa7ce250886ff168698"
 }
