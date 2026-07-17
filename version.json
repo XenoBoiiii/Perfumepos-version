@@ -1,6 +1,6 @@
 {
-  "version": "1.2.2",
-  "notes": "Corrige un error de certificado SSL que impedía actualizar en algunos equipos.",
-  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.2.2/PerfumePOS_Setup_v1.2.2.exe",
-  "windows_sha256": "102ca02896a214a7a9064171d7b5766a98181ee772860aa7ce250886ff168698"
+  "version": "1.2.3",
+  "notes": "Asistente de impresora: botón para refrescar la configuración e impresión de prueba guiada (densidad y alineación). Corrige la alineación vertical de la etiqueta Simple.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.2.3/PerfumePOS_Setup_v1.2.3.exe",
+  "windows_sha256": "262d6fc9a5af23b01dee53062ba6ecd741db9c4c2cb9d29a1b636dd1d3855a03"
 }
