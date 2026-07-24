@@ -1,6 +1,6 @@
 {
-  "version": "1.2.5",
-  "notes": "Inventario físico: el reporte ahora se pagina y se filtra (solo diferencias, faltantes, sobrantes), se actualiza solo cada 20 segundos, y se corrigió la exportación a Excel que no abría la ventana para elegir dónde guardar.",
-  "windows_url": "https://github.com/XenoBoiiii/perfumepos-version/releases/download/v1.2.5/PerfumePOS_Setup_v1.2.5.exe",
-  "windows_sha256": "7841a3f145c04ea1280c223d872bb6a0a21272212b2b9fc98d15cbed934c2493"
+  "version": "1.2.6",
+  "notes": "Inventario físico: historial de sesiones — puedes revisar y aplicar una sesión que se cerró sin confirmar. Nuevo orden (diferencia, alfabético, código) y botones de primera/última página.",
+  "windows_url": "https://github.com/XenoBoiiii/perfumepos-version/releases/download/v1.2.6/PerfumePOS_Setup_v1.2.6.exe",
+  "windows_sha256": "860497b99e23eede73fb0a364da75d836775243f9e6eb71f98b0798d5030301c"
 }
