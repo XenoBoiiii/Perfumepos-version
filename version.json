@@ -1,6 +1,6 @@
 {
-  "version": "1.2.4",
-  "notes": "Inventario físico: exporta el reporte de conteo a Excel, resaltando las diferencias entre el stock del sistema y lo contado — rojo si falta, verde si coincide, amarillo si sobra.",
-  "windows_url": "https://github.com/XenoBoiiii/perfumepos-version/releases/download/v1.2.4/PerfumePOS_Setup_v1.2.4.exe",
-  "windows_sha256": "ca4eb41e2c208055a168cc2c38a819fa41e90ff3a4d45fba077b8f4d490fca93"
+  "version": "1.2.5",
+  "notes": "Inventario físico: el reporte ahora se pagina y se filtra (solo diferencias, faltantes, sobrantes), se actualiza solo cada 20 segundos, y se corrigió la exportación a Excel que no abría la ventana para elegir dónde guardar.",
+  "windows_url": "https://github.com/XenoBoiiii/perfumepos-version/releases/download/v1.2.5/PerfumePOS_Setup_v1.2.5.exe",
+  "windows_sha256": "7841a3f145c04ea1280c223d872bb6a0a21272212b2b9fc98d15cbed934c2493"
 }
