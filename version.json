@@ -1,6 +1,6 @@
 {
-  "version": "1.2.6",
-  "notes": "Inventario físico: historial de sesiones — puedes revisar y aplicar una sesión que se cerró sin confirmar. Nuevo orden (diferencia, alfabético, código) y botones de primera/última página.",
-  "windows_url": "https://github.com/XenoBoiiii/perfumepos-version/releases/download/v1.2.6/PerfumePOS_Setup_v1.2.6.exe",
-  "windows_sha256": "860497b99e23eede73fb0a364da75d836775243f9e6eb71f98b0798d5030301c"
+  "version": "1.3",
+  "notes": "Inventario: exportar el conteo o el catálogo para subirlo al dashboard (Inventario → Cargar inventario).",
+  "windows_url": "https://github.com/XenoBoiiii/perfumepos-version/releases/download/v1.3/PerfumePOS_Setup_v1.3.exe",
+  "windows_sha256": "fd1955f68b110e0ea5c119d1d66ceb0e9aed91191f1c86333934b446b29d6618"
 }
