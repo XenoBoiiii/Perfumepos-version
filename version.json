@@ -1,6 +1,6 @@
 {
-  "version": "1.3.4",
-  "notes": "Sincronizar todo reescribe el catálogo completo del dashboard (nombres, stock, costo, activo, precios base/mínimo/full; no precio_locales). Pagina catálogos grandes y desactiva códigos que ya no están en el dash. Inactivos no se venden.",
-  "windows_url": "https://github.com/XenoBoiiii/perfumepos-version/releases/download/v1.3.4/PerfumePOS_Setup_v1.3.4.exe",
-  "windows_sha256": "d5e37e49f2b07adbc4b7ff43a81015ecfa283ace44160797e9a1d8631acbf408"
+  "version": "1.4.0",
+  "notes": "Actualización 1.4: mejoras de UX, tema, gastos/abonos, impresión y sincronización de catálogo con el dashboard.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4/PerfumePOS_Setup_v1.4.0.exe",
+  "windows_sha256": "ee0d7d1a534c3322f0c85db1458d0eb93c22328141399cb4c4b06a9ed0d9a03b"
 }
