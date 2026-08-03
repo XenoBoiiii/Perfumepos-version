@@ -1,6 +1,20 @@
 {
-  "version": "1.4.1",
-  "notes": "1.4.1: piso de venta P. Locales, una sesión por vendedor, multiplicar × en burbuja, tema glass + animaciones móviles, alcohol opcional (default 0), mejoras de rendimiento.",
-  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4.1/PerfumePOS_Setup_v1.4.1.exe",
-  "windows_sha256": "07892487e710b9b38768562ee1f2c1d46160cb9ebee359d80f71cecf5470125f"
+  "version": "1.4.1.1",
+  "notes": "1.4.1.1: no vender bajo costo (bloqueo duro), tope de gramos de esencia, revertir a las 2 versiones anteriores desde Buscar actualizaciones, modales móviles flotantes.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4.1.1/PerfumePOS_Setup_v1.4.1.1.exe",
+  "windows_sha256": "6bb09215f8dfb38f28194f02cb74f053208b350cf8df4fa752957f0697e57e76",
+  "history": [
+    {
+      "version": "1.4.1",
+      "notes": "1.4.1: piso de venta P. Locales, una sesión por vendedor, multiplicar × en burbuja, tema glass + animaciones móviles, alcohol opcional (default 0), mejoras de rendimiento.",
+      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4.1/PerfumePOS_Setup_v1.4.1.exe",
+      "windows_sha256": "07892487e710b9b38768562ee1f2c1d46160cb9ebee359d80f71cecf5470125f"
+    },
+    {
+      "version": "1.4.0",
+      "notes": "1.4.0",
+      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4/PerfumePOS_Setup_v1.4.0.exe",
+      "windows_sha256": "ee0d7d1a534c3322f0c85db1458d0eb93c22328141399cb4c4b06a9ed0d9a03b"
+    }
+  ]
 }
