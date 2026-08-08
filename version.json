@@ -1,20 +1,20 @@
 {
-  "version": "1.4.1.4",
-  "notes": "Rendimiento: push de productos solo cuando cambian, cache de stock sin recargar catálogo, búsqueda de inventario con debounce, sync inicial retrasada, impresión y analíticas fuera del hilo UI.",
-  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4.1.4/PerfumePOS_Setup_v1.4.1.4.exe",
-  "windows_sha256": "af254031e7f4d9a5c19eee1d3cc06d3af819fe3472767890e9bc162c603febd4",
+  "version": "1.5",
+  "notes": "Buscar impresora ahora encuentra equipos detrás de repetidores WiFi (barre todas las subredes, no solo la principal). Nueva línea «pasa mano»: registra solo la utilidad, sin tocar inventario ni costos. Gastos y abonos se registran en el dashboard y quedan contabilizados al instante; el cierre del día cuadra contra los libros y baja lo que se registró en la web. Las órdenes a bodega ahora sí le avisan a la bodega.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5/PerfumePOS_Setup_v1.5.exe",
+  "windows_sha256": "b27e903018c3f2bdb42dd78078f2d5bad66efdbec1cb3c53d4b5b1ad6e3aa5da",
   "history": [
+    {
+      "version": "1.4.1.4",
+      "notes": "Rendimiento: push de productos solo cuando cambian, cache de stock sin recargar catálogo, búsqueda de inventario con debounce, sync inicial retrasada, impresión y analíticas fuera del hilo UI.",
+      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4.1.4/PerfumePOS_Setup_v1.4.1.4.exe",
+      "windows_sha256": "af254031e7f4d9a5c19eee1d3cc06d3af819fe3472767890e9bc162c603febd4"
+    },
     {
       "version": "1.4.1.3",
       "notes": "1.4.1.3: pago dividido con botón Continuar en móvil, barra de menú Windows (DPI) alineada, login scroll, menú flotante, bloqueo bajo costo.",
       "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4.1.3/PerfumePOS_Setup_v1.4.1.3.exe",
       "windows_sha256": "f8ddfae7db5583ce416239421b6eb9dd7d8a3ed7d94c6b3c359510919e52fe91"
-    },
-    {
-      "version": "1.4.1.2",
-      "notes": "1.4.1.2: login con scroll (Entrar siempre visible), menú móvil por encima de las tarjetas, bloqueo bajo costo y tope de esencia, revertir a 2 versiones anteriores.",
-      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4.1.2/PerfumePOS_Setup_v1.4.1.2.exe",
-      "windows_sha256": "61feb77ba5c1dcb667f56b40b5a76d403395f53c5488c94260c585f3c4fde776"
     }
   ]
 }
