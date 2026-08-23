@@ -1,20 +1,20 @@
 {
-  "version": "1.5.1",
-  "notes": "Los abonos a bodega que el dueño aprueba o registra en la web ahora bajan solos a la caja y se descuentan del esperado del día — antes no aparecían y el cajón se veía corto sin explicación. «Actualizar» en Dinero refresca Gastos y Abonos de una vez, y de paso los estados de los pedidos: ya no hay que apretarlo en cada pestaña. «Estado» en Órdenes solo consulta los pedidos que siguen abiertos, así que responde igual de rápido por más historial que tenga la caja.",
-  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.1/PerfumePOS_Setup_v1.5.1.exe",
-  "windows_sha256": "288304ca5be6870b280bca3a53e03de9c1370072e42574058a6a76734981e71c",
+  "version": "1.5.2",
+  "notes": "Buscar impresora ahora guarda la IP y la MAC al elegirla y manda la configuración a la impresora — ya no hay que pulsar Guardar. Si la impresora está en otra red (IP de fábrica), te dice que uses «Conectar / probar» primero. Sin MAC no finge reconexión automática. El historial de ventas muestra 5 días. Ya no se puede vender sin stock (el interruptor quedó en el menú oculto de Supabase). En el conteo del celular, ORG y PER 1.1 piden confirmación si la cantidad pasa de 8. En Cerrar el Día, un gasto rechazado ya no resta del esperado. El sync aguanta lotes con columnas distintas y no se cae el lote entero.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.2/PerfumePOS_Setup_v1.5.2.exe",
+  "windows_sha256": "546cd3f92eabd4fcf7c7bcc2ba2c4daebd455d2826507aa5162bc7ef88c3cce2",
   "history": [
+    {
+      "version": "1.5.1",
+      "notes": "Los abonos a bodega que el dueño aprueba o registra en la web ahora bajan solos a la caja y se descuentan del esperado del día — antes no aparecían y el cajón se veía corto sin explicación. «Actualizar» en Dinero refresca Gastos y Abonos de una vez, y de paso los estados de los pedidos: ya no hay que apretarlo en cada pestaña. «Estado» en Órdenes solo consulta los pedidos que siguen abiertos, así que responde igual de rápido por más historial que tenga la caja.",
+      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.1/PerfumePOS_Setup_v1.5.1.exe",
+      "windows_sha256": "288304ca5be6870b280bca3a53e03de9c1370072e42574058a6a76734981e71c"
+    },
     {
       "version": "1.5",
       "notes": "Buscar impresora ahora encuentra equipos detrás de repetidores WiFi (barre todas las subredes, no solo la principal). Nueva línea «pasa mano»: registra solo la utilidad, sin tocar inventario ni costos. Gastos y abonos se registran en el dashboard y quedan contabilizados al instante; el cierre del día cuadra contra los libros y baja lo que se registró en la web. Las órdenes a bodega ahora sí le avisan a la bodega.",
       "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5/PerfumePOS_Setup_v1.5.exe",
       "windows_sha256": "b27e903018c3f2bdb42dd78078f2d5bad66efdbec1cb3c53d4b5b1ad6e3aa5da"
-    },
-    {
-      "version": "1.4.1.4",
-      "notes": "Rendimiento: push de productos solo cuando cambian, cache de stock sin recargar catálogo, búsqueda de inventario con debounce, sync inicial retrasada, impresión y analíticas fuera del hilo UI.",
-      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.4.1.4/PerfumePOS_Setup_v1.4.1.4.exe",
-      "windows_sha256": "af254031e7f4d9a5c19eee1d3cc06d3af819fe3472767890e9bc162c603febd4"
     }
   ]
 }
