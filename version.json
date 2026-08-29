@@ -1,20 +1,20 @@
 {
-  "version": "1.5.2",
-  "notes": "Buscar impresora ahora guarda la IP y la MAC al elegirla y manda la configuración a la impresora — ya no hay que pulsar Guardar. Si la impresora está en otra red (IP de fábrica), te dice que uses «Conectar / probar» primero. Sin MAC no finge reconexión automática. El historial de ventas muestra 5 días. Ya no se puede vender sin stock (el interruptor quedó en el menú oculto de Supabase). En el conteo del celular, ORG y PER 1.1 piden confirmación si la cantidad pasa de 8. En Cerrar el Día, un gasto rechazado ya no resta del esperado. El sync aguanta lotes con columnas distintas y no se cae el lote entero.",
-  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.2/PerfumePOS_Setup_v1.5.2.exe",
-  "windows_sha256": "546cd3f92eabd4fcf7c7bcc2ba2c4daebd455d2826507aa5162bc7ef88c3cce2",
+  "version": "1.5.3",
+  "notes": "Si pulsas Confirmar dos veces rápido, ya no se registra la venta dos veces. En Historial → Ver puedes corregir el método de pago de una venta ya hecha (si ya se subió, se corrige la misma fila, no se duplica). Al escanear una esencia se precargan 12 g y el total (12 × precio); 1 g con plata de frasco pide confirmación. Cambiar de pestaña pinta primero y carga después.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.3/PerfumePOS_Setup_v1.5.3.exe",
+  "windows_sha256": "3bc42e8a3081680d0348bd0b60297f76a5b9f6be524cea014b455e09b9a4c9af",
   "history": [
+    {
+      "version": "1.5.2",
+      "notes": "Buscar impresora ahora guarda la IP y la MAC al elegirla y manda la configuración a la impresora — ya no hay que pulsar Guardar. Si la impresora está en otra red (IP de fábrica), te dice que uses «Conectar / probar» primero. Sin MAC no finge reconexión automática. El historial de ventas muestra 5 días. Ya no se puede vender sin stock (el interruptor quedó en el menú oculto de Supabase). En el conteo del celular, ORG y PER 1.1 piden confirmación si la cantidad pasa de 8. En Cerrar el Día, un gasto rechazado ya no resta del esperado. El sync aguanta lotes con columnas distintas y no se cae el lote entero.",
+      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.2/PerfumePOS_Setup_v1.5.2.exe",
+      "windows_sha256": "546cd3f92eabd4fcf7c7bcc2ba2c4daebd455d2826507aa5162bc7ef88c3cce2"
+    },
     {
       "version": "1.5.1",
       "notes": "Los abonos a bodega que el dueño aprueba o registra en la web ahora bajan solos a la caja y se descuentan del esperado del día — antes no aparecían y el cajón se veía corto sin explicación. «Actualizar» en Dinero refresca Gastos y Abonos de una vez, y de paso los estados de los pedidos: ya no hay que apretarlo en cada pestaña. «Estado» en Órdenes solo consulta los pedidos que siguen abiertos, así que responde igual de rápido por más historial que tenga la caja.",
       "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.1/PerfumePOS_Setup_v1.5.1.exe",
       "windows_sha256": "288304ca5be6870b280bca3a53e03de9c1370072e42574058a6a76734981e71c"
-    },
-    {
-      "version": "1.5",
-      "notes": "Buscar impresora ahora encuentra equipos detrás de repetidores WiFi (barre todas las subredes, no solo la principal). Nueva línea «pasa mano»: registra solo la utilidad, sin tocar inventario ni costos. Gastos y abonos se registran en el dashboard y quedan contabilizados al instante; el cierre del día cuadra contra los libros y baja lo que se registró en la web. Las órdenes a bodega ahora sí le avisan a la bodega.",
-      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5/PerfumePOS_Setup_v1.5.exe",
-      "windows_sha256": "b27e903018c3f2bdb42dd78078f2d5bad66efdbec1cb3c53d4b5b1ad6e3aa5da"
     }
   ]
 }
