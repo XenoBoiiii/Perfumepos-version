@@ -1,20 +1,20 @@
 {
-  "version": "1.5.3",
-  "notes": "Si pulsas Confirmar dos veces rápido, ya no se registra la venta dos veces. En Historial → Ver puedes corregir el método de pago de una venta ya hecha (si ya se subió, se corrige la misma fila, no se duplica). Al escanear una esencia se precargan 12 g y el total (12 × precio); 1 g con plata de frasco pide confirmación. Cambiar de pestaña pinta primero y carga después.",
-  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.3/PerfumePOS_Setup_v1.5.3.exe",
-  "windows_sha256": "3bc42e8a3081680d0348bd0b60297f76a5b9f6be524cea014b455e09b9a4c9af",
+  "version": "2.0.0",
+  "notes": "Caja 2.0 (ventana nueva). Sigue usando la misma base y fotos de AppData que 1.5.3: ventas, inventario y configuración no se pierden.\n\nNueva Venta: chips ORG, Per 1.1 y Envases, y un interruptor «Ocultar sin stock». El piso de venta es el COSTO (el que editas en el dash), ya no P. Locales — un Mayor más barato que Locales ya no bloquea la venta.\n\nInventario físico abre en su propia ventana; Inventario sigue siendo la tabla de productos. El conteo reintenta si dos cajeros guardan a la vez y el botón Agregar se bloquea hasta que el servidor responde. Fotos al contar (caja y teléfono).\n\nTeléfono: miniatura al escanear, en el carrito y en la búsqueda. Pestaña Reto del día (mismo tablero que la caja) si hay dashboard.\n\nFotos del catálogo vienen en el instalador y se copian a AppData al primer arranque. No hace falta Google Drive ni internet para vender. Si no hay red, el sync espera 15 min en vez de llenar la consola de errores.\n\nEtiquetas: mismo diseño que 1.5.3 (Tienda / Simple / Solo logo). La vista previa en Configuración ya no estira la etiqueta. Botones de «Es un nuevo día» y el asistente de impresora vuelven a responder.\n\nEsta línea 2.x no instala un 1.5.x encima. Recargar inventario sigue necesitando el dashboard cuando quieras bajar stock.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v2.0/PerfumePOS_Setup_v2.0.0.exe",
+  "windows_sha256": "c142b08664b99c324f090eba543e16d6f3882433cad833969d781b15bd850987",
   "history": [
+    {
+      "version": "1.5.3",
+      "notes": "Si pulsas Confirmar dos veces rápido, ya no se registra la venta dos veces. En Historial → Ver puedes corregir el método de pago de una venta ya hecha (si ya se subió, se corrige la misma fila, no se duplica). Al escanear una esencia se precargan 12 g y el total (12 × precio); 1 g con plata de frasco pide confirmación. Cambiar de pestaña pinta primero y carga después.",
+      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.3/PerfumePOS_Setup_v1.5.3.exe",
+      "windows_sha256": "3bc42e8a3081680d0348bd0b60297f76a5b9f6be524cea014b455e09b9a4c9af"
+    },
     {
       "version": "1.5.2",
       "notes": "Buscar impresora ahora guarda la IP y la MAC al elegirla y manda la configuración a la impresora — ya no hay que pulsar Guardar. Si la impresora está en otra red (IP de fábrica), te dice que uses «Conectar / probar» primero. Sin MAC no finge reconexión automática. El historial de ventas muestra 5 días. Ya no se puede vender sin stock (el interruptor quedó en el menú oculto de Supabase). En el conteo del celular, ORG y PER 1.1 piden confirmación si la cantidad pasa de 8. En Cerrar el Día, un gasto rechazado ya no resta del esperado. El sync aguanta lotes con columnas distintas y no se cae el lote entero.",
       "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.2/PerfumePOS_Setup_v1.5.2.exe",
       "windows_sha256": "546cd3f92eabd4fcf7c7bcc2ba2c4daebd455d2826507aa5162bc7ef88c3cce2"
-    },
-    {
-      "version": "1.5.1",
-      "notes": "Los abonos a bodega que el dueño aprueba o registra en la web ahora bajan solos a la caja y se descuentan del esperado del día — antes no aparecían y el cajón se veía corto sin explicación. «Actualizar» en Dinero refresca Gastos y Abonos de una vez, y de paso los estados de los pedidos: ya no hay que apretarlo en cada pestaña. «Estado» en Órdenes solo consulta los pedidos que siguen abiertos, así que responde igual de rápido por más historial que tenga la caja.",
-      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v1.5.1/PerfumePOS_Setup_v1.5.1.exe",
-      "windows_sha256": "288304ca5be6870b280bca3a53e03de9c1370072e42574058a6a76734981e71c"
     }
   ]
 }
