@@ -1,9 +1,15 @@
 {
-  "version": "2.0.7",
-  "notes": "Simple y Solo logo quedan en el centro de la etiqueta. Tienda sigue arriba, con la tienda, la casa y el teléfono.\n\nEn Cola de impresión, Reimprimir abre la vista previa de ese trabajo y manda uno nuevo. Sirve también si el trabajo ya salió. En el teléfono es el mismo botón.\n\nLa caja sigue con la misma base de 2.0.6. El conteo ya hecho no se borra. Sin internet se puede vender.",
-  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v2.0.7/PerfumePOS_Setup_v2.0.7.exe",
-  "windows_sha256": "b151cd391ba6aafdc2c4143cd48dd1c8ae84a6ce97e50dd9b13d6165bbf7ec15",
+  "version": "2.0.701",
+  "notes": "La vista previa de etiquetas vuelve a salir. Una impresión nueva sigue usando el código de barras.\n\nReimprimir un trabajo de la cola busca ese producto y manda el mismo código y la misma cantidad que una impresión nueva.\n\nLa caja sigue con la misma base de 2.0.7. El conteo ya hecho no se borra. Sin internet se puede vender.",
+  "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v2.0.701/PerfumePOS_Setup_v2.0.701.exe",
+  "windows_sha256": "34d265876644a703c0d86267efe5ea506e05df1804950a940bb9cc9f14fb038a",
   "history": [
+    {
+      "version": "2.0.7",
+      "notes": "Simple y Solo logo quedan en el centro de la etiqueta. Tienda sigue arriba, con la tienda, la casa y el teléfono.\n\nEn Cola de impresión, Reimprimir abre la vista previa de ese trabajo y manda uno nuevo. Sirve también si el trabajo ya salió. En el teléfono es el mismo botón.\n\nLa caja sigue con la misma base de 2.0.6. El conteo ya hecho no se borra. Sin internet se puede vender.",
+      "windows_url": "https://github.com/XenoBoiiii/Perfumepos-version/releases/download/v2.0.7/PerfumePOS_Setup_v2.0.7.exe",
+      "windows_sha256": "b151cd391ba6aafdc2c4143cd48dd1c8ae84a6ce97e50dd9b13d6165bbf7ec15"
+    },
     {
       "version": "2.0.6",
       "notes": "El diseño Simple de las etiquetas queda alineado con Tienda: el logo arranca en el mismo borde de arriba.\n\nReimprimir etiquetas, en Historial → Ver, abre la vista previa y deja elegir Tienda, Simple o Solo logo. En Cola de impresión, Ver hace lo mismo con un trabajo que ya salió. Después de una venta en la caja aparece Imprimir etiquetas cuando el ticket tiene una esencia.\n\nCerrar el día baja los abonos del dashboard y los muestra. El esperado sigue siendo apertura + ventas − gastos − abonos. Si el dashboard no contesta, el cierre usa lo que ya está en la caja.\n\nEn el conteo, si ese código ya se contó en la sesión, debajo del nombre dice «Contado en esta sesión» y el total de todos los que contaron.\n\nLa caja sigue con la misma base de 2.0.5. El conteo ya hecho no se borra. Sin internet se puede vender.",
